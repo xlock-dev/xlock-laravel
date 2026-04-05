@@ -47,7 +47,7 @@ Route::post('/checkout', [CheckoutController::class, 'store'])->middleware('xloc
 | Key | Env Variable | Default | Description |
 |-----|-------------|---------|-------------|
 | `site_key` | `XLOCK_SITE_KEY` | `null` | Your x-lock site key |
-| `api_url` | `XLOCK_API_URL` | `https://api.x-lock.cloud` | Enforcement API endpoint |
+| `api_url` | `XLOCK_API_URL` | `https://api.x-lock.dev` | Enforcement API endpoint |
 | `fail_open` | `XLOCK_FAIL_OPEN` | `true` | Allow requests when API is unreachable |
 
 ## How it works
