@@ -1,0 +1,28 @@
+{
+    "name": "xlock/laravel",
+    "description": "x-lock bot protection middleware for Laravel",
+    "version": "0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://x-lock.dev",
+    "keywords": ["laravel", "middleware", "bot-protection", "security", "x-lock"],
+    "require": {
+        "php": ">=8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/http": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "XLock\\Laravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "XLock\\Laravel\\XLockServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
