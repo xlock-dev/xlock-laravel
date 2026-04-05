@@ -4,7 +4,7 @@
     "version": "0.1.0",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://x-lock.dev",
+    "homepage": "https://x-lock.cloud",
     "keywords": ["laravel", "middleware", "bot-protection", "security", "x-lock"],
     "require": {
         "php": ">=8.1",
